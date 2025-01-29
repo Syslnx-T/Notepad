@@ -3,6 +3,7 @@ from tkinter import filedialog, messagebox
 root = tk.Tk()
 
 menu_bar = tk.Menu(root)
+root.geometry("700x500")
 menu_options = tk.Menu(menu_bar, tearoff=0)
 
 menu_options.add_command(label='New')
